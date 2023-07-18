@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kavach/src/features/authentication/screens/on_boarding/on_boarding_screen.dart';
 import 'package:kavach/src/utils/theme/theme.dart';
 
 void main() => runApp(const App());
@@ -14,7 +15,7 @@ class App extends StatelessWidget {
       theme: TAppTheme.lightTheme,
       darkTheme: TAppTheme.darkTheme,
       themeMode: ThemeMode.system,
-      home: AppHome(),
+      home: const OnBoardingScreen(),
     );
   }
 }
@@ -32,7 +33,7 @@ class AppHome extends StatelessWidget {
           title: const Text("Kavach"),
           leading: const Icon(Icons.ondemand_video)),
       floatingActionButton: FloatingActionButton(
-        child: const Icon(Icons.add_shopping_cart_outlined),
+        child: const Icon(Icons.mail),
         onPressed: () {},
       ),
       body: Padding(
@@ -46,7 +47,7 @@ class AppHome extends StatelessWidget {
               "Spam Alert", style: Theme.of(context).textTheme.subtitle2,
             ),
             Text(
-              "AI powered Spam Alert system", style: Theme.of(context).textTheme.bodyText1,
+              "India's first AI powered Spam Alert system", style: Theme.of(context).textTheme.bodyText1,
             ),
             ElevatedButton(
               onPressed: () {},

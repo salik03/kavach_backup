@@ -8,7 +8,7 @@ class TTextTheme{
   ),
   subtitle2: GoogleFonts.poppins(
   color: Colors.black54,
-  fontSize: 24,
+  fontSize: 12,
   ),
   );
 
@@ -18,7 +18,7 @@ class TTextTheme{
     ),
     subtitle2: GoogleFonts.poppins(
       color: Colors.white60,
-      fontSize: 24,
+      fontSize: 12,
     ),
   );
 
